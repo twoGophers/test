@@ -24,10 +24,12 @@ new Vue ({
               parseInt(this.value5) +
               parseInt(this.value6) +
               parseInt(this.value7)
-            if(t <= 10 ) {
-              return t
-            } else {
-              !this.getTestNumber
+            if(t < 10 ) {
+              t = 'Ваши баллы меньше 10'
+            } else if (t == 10) {
+              t = 'Переходите к следующему тесту'
+            } else if (t > 10){
+              t = 'Ваши балы больше 10'
             }
 
          return t
