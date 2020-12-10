@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/dist/style.css">
+    <link rel="stylesheet" href="style/dist/button.css">
+    <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+    <title>Document</title>
+</head>
+<body>
+
+    <div class="men" id="app">
+
+        <div class="men__content">
+            <div class="men__test">
+                <h1>Тест Белбина на вашу роль в команде – пройти тест онлайн</h1>
+                <p>Для прохождения теста Белбина, необходимо в 7 вопросах распределить все баллы (10 баллов) по вариантам ответа. Следите за подсказкой внизу.</p>
+                <p>Расшифровка теста даст информацию о вашей роли: исполнитель, мыслитель, председатель, формирователь, разведчик, оценщик, коллективист, доводчик с расшифровкой по шкалам и разъяснениями.</p>
+        
+                <hr style="height: 5px;">
+            </div>
+            <div class="men__name">
+                <h2>ЧАСТЬ 1 ИЗ 7.
+                    <br>
+                    МОИ НЕДОСТАТКИ, КОТОРЫЕ МОГУТ ПРОЯВИТЬСЯ В КОМАНДНОЙ РАБОТЕ:</h2>
+                   
+                    <hr>
+            </div>
+
+            <form action="">
+                <p>Я думаю, что способен быстро замечать новые возможности и извлекать из них выгоды.</p>
+                     <div class="slidecontainer">
+                        <input type="range" class="form-control-range" id="formControlRange" min="0" max="10" v-model="value">
+                        <p>{{value}}</p>
+                    </div>
+                <hr>
+            </form>
+            
+            <form action="">
+                <p>Я могу успешно работать с самыми разными людьми</p>
+                <div class="slidecontainer">
+                    <input type="range" class="form-control-range" id="formControlRange" min="0" max="10" v-model="value1">
+                    <p class="number">{{value1}}</p>
+                </div>
+                <hr>
+            </form>
+
+            <form action="">
+                <p>Генерация идей — моё врожденное достоинство.</p>
+                <div class="slidecontainer">
+                    <input type="range" class="form-control-range" id="formControlRange" min="0" max="10" v-model="value2">
+                    <p class="number">{{value2}}</p>
+                </div>
+                <hr>
+            </form>
+
+            <form action="">
+                 <p>Моим достоинством является умение находить людей, способных принести пользу команде.</p>
+                 <div class="slidecontainer">
+                    <input type="range" class="form-control-range" id="formControlRange" min="0" max="10" v-model="value3">
+                    <p class="number">{{value3}}</p>
+                </div>
+                <hr>
+            </form>
+
+            <form action="">
+                <p>Моя способность доводить всё до конца во многом обеспечила мою профессиональную эффективность.</p>
+                <div class="slidecontainer">
+                    <input type="range" class="form-control-range" id="formControlRange" min="0" max="10" v-model="value4">
+                    <p class="number">{{value4}}</p>
+                </div>
+                <hr>
+            </form>
+
+            <form action="">
+                <p>Я готов перенести временную непопулярность, если вижу, что мои действия принесут в конечном счете полезные результаты.</p>
+                <div class="slidecontainer">
+                    <input type="range" class="form-control-range" id="formControlRange" min="0" max="10" v-model="value5">
+                    <p class="number">{{value5}}</p>
+                </div>
+                <hr>
+            </form>
+
+            <form action="">
+                <p>
+                    Я быстро выясняю, что сработает в данной ситуации, если в подобную ситуацию я уже попадал.
+                </p>
+                <div class="slidecontainer">
+                    <input type="range" class="form-control-range" id="formControlRange" min="0" max="10" v-model="value6">
+                    <p class="number">{{value6}}</p>
+                </div>
+                <hr>
+            </form>
+
+            <form action="">
+                <p>
+                    Личные заблуждения и предубеждения не мешают мне находить и доказывать преимущества альтернативных действий.
+                </p>
+                <div class="slidecontainer">
+                    <input type="range" class="form-control-range" id="formControlRange" min="0" max="10" v-model="value7">
+                    <p class="number">{{value7}}</p>
+                </div>
+                <hr>
+            </form>
+
+            <div class="summ1">
+               <p  v-html = "getTestNumber"></p> 
+               
+               <hr>
+            </div>
+            
+            <div class="str">
+                <p>Ответили на 1 из 7</p>
+                <img class="images_info" src="images/icon.png" alt="information"> 
+                <div class="information">
+                        
+                        <p >
+                            Для прохождения теста Белбина, необходимо в 7 вопросах распределить все баллы (10 баллов) по вариантам ответа.
+                    </p>
+                </div>
+            </div>
+
+           
+
+            <div class="click_botton" >
+                
+                <a v-on:click  class="more" href="#">Следующая</a>
+                
+            </div>
+        </div>
+
+
+
+    </div>
+    <script src="javascript/clider.js"></script>
+    <script src="javascript/clider2.js"></script>
+    <script src="javascript/men.js"></script>
+
+</body>
+</html>

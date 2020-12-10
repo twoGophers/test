@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style/dist/style.css">
+    <link rel="stylesheet" href="../style/dist/button.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <div class="men">
+
+        <div class="men__content">
+            <div class="men__test">
+                <h1>Тест Белбина на вашу роль в команде – пройти тест онлайн</h1>
+                <p>Для прохождения теста Белбина, необходимо в 7 вопросах распределить все баллы (10 баллов) по вариантам ответа. Следите за подсказкой внизу.</p>
+                <p>Расшифровка теста даст информацию о вашей роли: исполнитель, мыслитель, председатель, формирователь, разведчик, оценщик, коллективист, доводчик с расшифровкой по шкалам и разъяснениями.</p>
+        
+                <hr style="height: 5px;">
+            </div>
+            <div class="men__name">
+                <h2>ЧАСТЬ 2 ИЗ 7.
+                    <br>
+                    Что я могу предложить команде:</h2>
+                   
+                    <hr>
+            </div>
+
+            <form action="">
+                <p>Я чувствую себя неуверенно на совещании, если отсутствуют четкая повестка дня и контроль за её соблюдением.</p>
+                     <div class="slidecontainer">
+                        <input type="range" min="0" max="10" id="line8" oninput="testMy()" value="0">   
+                        <div class="number" id="my8">0</div>
+                    </div>
+                <hr>
+            </form>
+            
+            <form action="">
+                <p>Я склонен быть слишком великодушным к людям, имеющим правильную точку зрения, но не высказывающим её открыто.</p>
+                <div class="slidecontainer">
+                    <input type="range" min="0" max="10" id="line9" oninput="testMy()" value="0">   
+                        <div class="number" id="my9">0</div>
+
+                </div>
+                <hr>
+            </form>
+
+            <form action="">
+                <p>Я склонен слишком много говорить, когда в группе обсуждаются новые идеи.</p>
+                <div class="slidecontainer">
+                    <input type="range" min="0" max="10" id="line10" oninput="testMy()" value="0">   
+                        <div class="number" id="my10">0</div>
+                </div>
+                <hr>
+            </form>
+
+            <form action="">
+                 <p>Вследствие моей осмотрительности я не склонен быстро и с энтузиазмом присоединяться к мнению коллег.</p>
+                 <div class="slidecontainer">
+                    <input type="range" min="0" max="10" id="line11" oninput="testMy()" value="0">   
+                        <div class="number" id="my11">0</div>
+                </div>
+                <hr>
+            </form>
+
+            <form action="">
+                <p>Я иногда выгляжу авторитарным и нетерпимым, когда чувствую необходимость достичь чего-то.</p>
+                <div class="slidecontainer">
+                    <input type="range" min="0" max="10" id="line12" oninput="testMy()" value="0">   
+                        <div class="number" id="my12">0</div>
+                </div>
+                <hr>
+            </form>
+
+            <form action="">
+                <p>Мне трудно повести людей за собой, поскольку я слишком подвержен влиянию атмосферы, царящей в группе.</p>
+                <div class="slidecontainer">
+                    <input type="range" min="0" max="10" id="line13" oninput="testMy()" value="0">   
+                        <div class="number" id="my13">0</div>
+                </div>
+                <hr>
+            </form>
+
+            <form action="">
+                <p>
+                    Я слишком захвачен идеями, которые мне приходят в голову, и поэтому плохо слежу за тем, что происходит вокруг.
+                </p>
+                <div class="slidecontainer">
+                    <input type="range" min="0" max="10" id="line14" oninput="testMy()" value="0">   
+                        <div class="number" id="my14">0</div>
+                </div>
+                <hr>
+            </form>
+
+            <form action="">
+                <p>
+                    Мои коллеги находят, что я слишком много внимания уделяю деталям и чрезмерно беспокоюсь о том, что дела идут неправильно.
+                </p>
+                <div class="slidecontainer">
+                    <input type="range" min="0" max="10" id="line15" oninput="testMy()" value="0">   
+                        <div class="number" id="my15">0</div>
+                </div>
+                <hr>
+            </form>
+
+            <div class="summ1">
+               <p class="">Сумма:</p> 
+               <hr>
+            </div>
+            
+            <div class="str">
+                <p>Ответили на 2 из 7</p>
+                <img class="images_info" src="../images/icon.png" alt="information"> 
+                <div class="information">
+                        
+                        <p >
+                            Для прохождения теста Белбина, необходимо в 7 вопросах распределить все баллы (10 баллов) по вариантам ответа.
+                    </p>
+                </div>
+            </div>
+
+           
+
+            <div class="click_botton">
+                <a class="more" href="#">Следующая</a>
+            </div>
+        </div>
+    </div>
+    <script src="javascript/men.js"></script>
+    <script src="javascript/clider2.js"></script>
+</body>
+</html>

@@ -1,0 +1,169 @@
+* {
+  font-family: arial;
+  color: #6d7073;
+  outline: 0;
+  padding: 0;
+  margin: 0;
+  border: 0;
+  text-decoration: none;
+  white-space: normal;
+  vertical-align: baseline;
+}
+
+html {
+  background: #dddbdb;
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  flex: auto;
+  font-family: Verdana, Tahoma, sans-serif;
+  overflow-x: hidden;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+hr {
+  border: 0;
+  height: 1px;
+  background: #000;
+  background-image: -webkit-linear-gradient(left, #fff, #000, #fff);
+  background-image: -moz-linear-gradient(left, #fff, #000, #fff);
+  background-image: -ms-linear-gradient(left, #fff, #000, #fff);
+  background-image: -o-linear-gradient(left, #fff, #000, #fff);
+}
+
+.men {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding-bottom: 7%;
+}
+.men .men__content {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  justify-content: center;
+  border: 1px solid #a3a2a2;
+  margin-top: 8%;
+  background: white;
+  padding: 3%;
+  justify-content: center;
+  border: 5px;
+  padding-bottom: 7%;
+}
+.men .men__content p {
+  font-size: 15px;
+  text-align: justify;
+  line-height: 1.5em;
+  margin: 0 0 10px;
+  padding: 0;
+}
+.men .men__content h1 {
+  color: #369;
+  font-size: 24px;
+  font-weight: 400;
+  padding: 7px 20px;
+  font-family: Thoma, serif;
+  letter-spacing: -2px;
+}
+.men .men__content h2 {
+  text-transform: uppercase;
+  text-align: center;
+  margin: 20px 0;
+  letter-spacing: -1px;
+  font-size: 18px;
+  color: #5a94bd;
+  font-family: Thoma, serif;
+  font-weight: normal;
+  word-spacing: 5px;
+  line-height: 1.5em;
+}
+.men .men__content form {
+  padding-top: 5%;
+}
+.men .men__content form .slidecontainer {
+  padding-bottom: 2%;
+  display: flex;
+  flex-direction: row;
+}
+.men .men__content form .slidecontainer input {
+  width: 30%;
+}
+.men .men__content form .slidecontainer p {
+  margin-left: 3%;
+}
+.men .men__content form .slidecontainer .number {
+  margin-left: 7%;
+}
+.men .men__content .men__test {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.men .men__content .men__test h1 {
+  justify-content: center;
+  padding-bottom: 5%;
+}
+.men .men__content .summ1 {
+  border: 1px solid #e6e3e3;
+  display: flex;
+  margin-top: 1%;
+}
+.men .men__content .summ1 p {
+  margin: 2%;
+  margin-left: 3%;
+}
+.men .men__content .click_botton {
+  display: flex;
+  width: 100%;
+  border: 1px solid #e6e3e3;
+  justify-content: center;
+  align-items: center;
+  padding-top: 5%;
+}
+.men .men__content .str {
+  margin-top: 1%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 60px;
+}
+.men .men__content .str p {
+  width: 30%;
+}
+.men .men__content .str img {
+  width: 30px;
+  height: 30px;
+  margin-bottom: 2%;
+}
+.men .men__content .str .information {
+  width: 100%;
+  display: flex;
+  margin-left: 2%;
+  background-color: #95e4f1;
+  margin-top: 0;
+}
+.men .men__content .str .information p {
+  display: none;
+  width: 100%;
+  margin: 1%;
+}
+.men .men__content .str .information .wishow_info {
+  display: flex;
+}
